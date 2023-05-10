@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ogin" method="get">
+        <label for="id">아이디</label>
+        <input type="text" name="user_id" id=" id"> <br>
+
+        <label for="pw">비밀번호</label>
+        <input type="text" name="user_id" id=" id"> <br>
+
+        <input type="submit" value="로그인">
+    </form>
+    <hr>
+    <form action="input" method="post">
+        ID      : <input type="text" name="id"> <br>
+        PW      : <input type="password" name="password"> <br>
+        email   : <input type="email" name="email"> <br>
+        url     : <input type="url" name="url"> <br>
+        tel     : <input type="tel" name="tel"> <br>
+        color   : <input type="color" name="color"> <br>
+    </form>
+
+    radio(성별) :
+            <label for="female">여자</label>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <label for="male">남자</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <br>
+
+    checkbox(취미) :
+            <label for="exercise">운동</label>
+            <input type="checkbox" name="hobby" id="exercise" value="exercise">
+
+            <label for="movie">영화감상</label>
+            <input type="checkbox" name="hobby" id="movie" value="movie">
+            
+            <label for="movie">독서</label>
+            <input type="checkbox" name="hobby" id="book" value="book">
+            <br>
+
+    date        : <input type="date" name="date"> <br>
+    month       : <input type="month" name="month"> <br>
+    time        : <input type="time" name="time"> <br>
+    datetime-local: <input type="datetime-local" name="datetime-local"> <br>
+
+    number       : <input type="number" name="number" min="1" max="100" step="1"> <br>
+    range        : <input type="range" name="range" min="1" max="100" step="1"> <br>
+
+    <label for="email2">이메일 : </label>
+    <input type="text" name="email2" id="email2">
+    @
+    <select name="domain" id="domain">
+        <option value="1">naver.com</option>
+        <option value="2">nate.com</option>
+        <option value="3">kakao.com</option>
+        <option value="4">gmail.com</option>
+    </select>
+</body>
+</html>
