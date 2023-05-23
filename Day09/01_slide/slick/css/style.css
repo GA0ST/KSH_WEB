@@ -1,0 +1,25 @@
+
+.slide-container {
+    width: 960px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.slide-container .slide {
+    width: auto;
+    height: 480px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* 화살표 */
+.slick-prev:before, .slick-prev:before {
+    color: black;
+}
+

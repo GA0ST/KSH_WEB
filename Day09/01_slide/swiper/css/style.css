@@ -1,0 +1,13 @@
+
+.swiper {
+    width: 960px;
+    height: 480px;
+    margin: 50px auto;
+}
+
+.swiper .swiper-slide img { 
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover;
+}
+

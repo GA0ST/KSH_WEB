@@ -1,0 +1,33 @@
+
+{*margin: 0; padding: 0;}
+
+#ball {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: royalblue;
+/* 에니메이션 */
+animation-name: ball;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: 15;
+}
+
+#ball h1 {
+    line-height: 200px;
+    color: white;
+    text-align: center;
+}
+/* 애니메이션의 변경지점을 지정하는 속성 */
+@keyframes ball {
+    0% {left: 0;}
+
+    50% {left: 1000px;
+    transform: rotate(360deg);
+    }
+    100% {left: 0;
+   
+    transform: rotate(0deg);
+    }
+}

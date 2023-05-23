@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요소 선택 - selector</title>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const ul = document.querySelector('.product-list ul')
+            ul.style.listStyleType = 'none'
+
+            const lists = document.querySelectorAll('.product-list ul li')
+
+            lists.forEach( (list) => {
+                list.children[0].src = './img/product.webp'
+                list.children[0].style.width = '300px'
+
+            })
+        })
+        
+    </script>
+</head>
+<body>
+    <div class="product-list">
+        <ul>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+        </ul>
+    </div>
+
+</body>
+</html>
